@@ -227,17 +227,17 @@ public class Tela1 extends javax.swing.JFrame {
         
         // inserindo Média dos valores Mínimos e Máximos das barras á legenda
         // CPU
-        if (maxCpu > 0 && minCpu > 0) {
+        if (maxCpu >= 0 && minCpu >= 0) {
             lblMediaCpu.setText("Media: " + ((maxCpu + minCpu)/2));
         }
         
         // Disco
-        if (maxDisco > 0 && minDisco > 0) {
+        if (maxDisco >= 0 && minDisco >= 0) {
             lblMediaDisco.setText("Media: " + ((maxDisco + minDisco)/2));
         }
         
         // Memória
-        if (maxMemoria > 0 && minMemoria > 0) {
+        if (maxMemoria >= 0 && minMemoria >= 0) {
             lblMediaMemoria.setText("Media: " + ((maxMemoria + minMemoria)/2));
         }
 
